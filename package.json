@@ -2,7 +2,9 @@
   "name": "jwt-auth-api",
   "version": "1.0.0",
   "main": "src/program/main.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "npx tsc --build"
+  },
   "keywords": [],
   "author": "camelopard187",
   "license": "MIT",
