@@ -1,0 +1,19 @@
+{
+  "server": {
+    "connection": {
+      "port": 3000,
+      "host": "localhost"
+    },
+    "app": {
+      "cookie": "99d736d95e96d3956aec36c00109537d0c1c50f3056e8e174b3668b84b663c1d",
+      "jwt": [
+        "fffa8f866817a231d7709e4e8851aa7bce9c6543c281e0d82dad18f152194233",
+        "4e2ecc9b700ad15c48cf542132791db4ae773a5b2d583127adb030458f6d0cdb"
+      ]
+    }
+  },
+  "databasePool": {
+    "uri": "mongodb+srv://root:root@cluster0.juxw8ux.mongodb.net/?retryWrites=true&w=majority",
+    "databases": ["auth-db"]
+  }
+}
