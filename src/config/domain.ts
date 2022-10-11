@@ -23,7 +23,10 @@ export const ConfigC = t.type({
 })
 
 export type Config = t.TypeOf<typeof ConfigC>
-export type JwtConfig = Config['server']['app']['jwt']
+export type ServerConfig = Config['server']
+export type ConnectionConfig = ServerConfig['connection']
+export type AppConfig = ServerConfig['app']
+export type JwtConfig = AppConfig['jwt']
 
 export const readFile = (path: fs.PathOrFileDescriptor) =>
   taskEither.tryCatch(
